@@ -1,7 +1,7 @@
 FROM node:8
 WORKDIR /usr/src/count
-COPY package*.json ./
 RUN cd ./docs
+COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
