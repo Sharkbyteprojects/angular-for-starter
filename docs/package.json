@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lite-server"
+  },
+  "author": "Sharkbyte",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
