@@ -1,6 +1,5 @@
 FROM node:8
-WORKDIR /usr/src/count
-RUN cd ./docs
+WORKDIR /usr/src/webs
 COPY package*.json ./
 RUN npm install
 COPY . .
